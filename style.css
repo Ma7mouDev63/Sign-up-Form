@@ -2,6 +2,7 @@ body {
     margin: 0%;
     display: flex;
     background-color: rgba(223, 217, 217, 0.299);
+    gap: 3vw;
 }
 
 img {
@@ -26,4 +27,6 @@ input {
 
 fieldset {
     border: none;
+    padding: 0;
+    margin: 0;
 }
