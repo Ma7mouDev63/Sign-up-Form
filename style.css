@@ -11,3 +11,8 @@ img {
 label, input {
     display: block;
 }
+
+#controls {
+    display: flex;
+    gap: 60px;
+}
