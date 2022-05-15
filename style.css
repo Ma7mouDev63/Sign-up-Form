@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     display: flex;
+    background-color: rgba(223, 217, 217, 0.299);
 }
 
 img {
@@ -8,11 +9,21 @@ img {
     height: 100vh;
 }
 
-label, input {
+label,
+input {
     display: block;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
 }
 
 #controls {
     display: flex;
     gap: 60px;
+}
+
+fieldset {
+    border: none;
 }
