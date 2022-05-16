@@ -34,13 +34,17 @@ fieldset {
 legend {
     padding: 0;
     font-size: 1.8rem;
-    margin-bottom: 4vh;
+    padding: 5px;
+    margin-bottom: 3vh;
 }
 
 form {
     margin-top: 10vh;
     box-shadow: 0px 6px 4px rgba(206, 195, 195, 0.856);
     background-color: white;
+    height: 30vh;
+    display: flex;
+    align-items: center;
 }
 
 p {
@@ -55,4 +59,8 @@ p {
 #main > * {
     padding-left: 3vw;
     padding-right: 3vw;
+}
+
+#controls > div > div {
+    padding: 5px;
 }
